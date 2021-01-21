@@ -9,7 +9,7 @@
   "author": "Angelo Verlain <geoangercola@gmail.com>",
   "homepage": "http://github.com/vixalien/panther",
   "license": "MIT",
-  "main": "lib/server.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vixalien/panther.git"
@@ -32,5 +32,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "34de9a6041c123e40ea660fad0f73334aa29bdd2"
+  "gitHead": "ccd6d58f88cfc2408899e510c0169b1af940dd35"
 }

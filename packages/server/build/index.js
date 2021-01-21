@@ -111,14 +111,22 @@ let defaultActions = {
 	boot: () => {
 		console.log('Booting a fresh Panther server');
 	},
-	listen: ({ port }) => {
-		console.log('Listening on port: ', app);
+	listened: ({ port }) => {
+		console.log('Listening on port: ', port);
 	}
 };
 
 let debugs = debugs__default['default']('@panther/server:lifecycles');
 
 let lifecycles = (app, actions = {}) => {
+	// listen to express-defined events
+	var oldEmit = app.emit;
+
+  app.emit = function(...args) {
+    runAction.apply(app, args);
+    oldEmit.apply(app, args);
+  };
+
 	let runAction = (step, data = {}) => {
 		// also add app
 		data.app = app;
