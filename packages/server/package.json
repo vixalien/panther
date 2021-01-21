@@ -1,6 +1,6 @@
 {
   "name": "@panther/server",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "A simple server for panther.js",
   "keywords": [
     "panther",
@@ -28,5 +28,6 @@
     "@rollup/plugin-node-resolve": "^10.0.0",
     "rollup": "^2.36.1",
     "rollup-plugin-auto-external": "^2.0.0"
-  }
+  },
+  "gitHead": "6bba0e6b2247d65f075f32963ef95738ddfc671f"
 }
