@@ -24,5 +24,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "34de9a6041c123e40ea660fad0f73334aa29bdd2"
+  "gitHead": "ccd6d58f88cfc2408899e510c0169b1af940dd35",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
