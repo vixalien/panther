@@ -7,6 +7,9 @@
     "server",
     "cli"
   ],
+  "bin": {
+    "panther": "lib/cli.js",
+  },
   "author": "Angelo Verlain <geoangercola@gmail.com>",
   "homepage": "http://github.com/vixalien/panther",
   "license": "MIT",
