@@ -29,5 +29,8 @@
     "rollup": "^2.36.1",
     "rollup-plugin-auto-external": "^2.0.0"
   },
-  "gitHead": "f3f06210005629aa98d54f980b9e5fc22a287e82"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "34de9a6041c123e40ea660fad0f73334aa29bdd2"
 }
