@@ -1,5 +1,5 @@
 {
-  "name": "@panther/server",
+  "name": "@panthermvc/server",
   "version": "0.2.0",
   "description": "A simple server for panther.js",
   "keywords": [
@@ -29,5 +29,5 @@
     "rollup": "^2.36.1",
     "rollup-plugin-auto-external": "^2.0.0"
   },
-  "gitHead": "6bba0e6b2247d65f075f32963ef95738ddfc671f"
+  "gitHead": "f3f06210005629aa98d54f980b9e5fc22a287e82"
 }
