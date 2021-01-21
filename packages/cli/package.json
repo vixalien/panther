@@ -1,0 +1,24 @@
+{
+  "name": "@panther/cli",
+  "version": "0.0.0",
+  "description": "CLI for panther",
+  "keywords": [
+    "panther",
+    "server",
+    "cli"
+  ],
+  "author": "Angelo Verlain <geoangercola@gmail.com>",
+  "homepage": "http://github.com/vixalien/panther",
+  "license": "MIT",
+  "main": "lib/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vixalien/panther.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/vixalien/panther/issues"
+  }
+}

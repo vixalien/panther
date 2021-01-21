@@ -1,0 +1,32 @@
+{
+  "name": "@panther/server",
+  "version": "0.0.0",
+  "description": "A simple server for panther.js",
+  "keywords": [
+    "panther",
+    "server"
+  ],
+  "author": "Angelo Verlain <geoangercola@gmail.com>",
+  "homepage": "http://github.com/vixalien/panther",
+  "license": "MIT",
+  "main": "lib/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vixalien/panther.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vixalien/panther/issues"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-session": "^1.4.0",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.36.1",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0"
+  }
+}
